@@ -30,7 +30,7 @@ function newQuote(){
     if(!quote.author){
         authorText.textContent = 'Unknown';
     }else{
-        authorText.textContent = quote.author;
+        authorText.textContent = "~ " + quote.author;
     }
 
     // CHECK THE QUOTE LENGTH TO DETERMINE STLKING
